@@ -1,18 +1,164 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="sq">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diar F.</title>
-  <style>
-    body { margin: 0; font-family: system-ui, sans-serif; background: #fff; color: #111; }
-    main { max-width: 720px; margin: 0 auto; padding: 60px 20px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WTHB – Licenca Software</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+  body { background: #f4f6fb; color: #1a1a2e; }
+
+  header {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff; padding: 50px 20px; text-align: center;
+  }
+  header h1 { font-size: 2.2rem; letter-spacing: 1px; }
+  header p { margin-top: 10px; opacity: .85; }
+
+  .info-bar {
+    max-width: 1100px; margin: -25px auto 30px; background: #fff;
+    border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    display: flex; flex-wrap: wrap; justify-content: space-around;
+    padding: 18px; gap: 12px; text-align: center; font-size: .92rem;
+  }
+  .info-bar div { min-width: 180px; }
+  .info-bar strong { color: #2c5364; }
+
+  .container { max-width: 1100px; margin: 0 auto 60px; padding: 0 20px; }
+
+  .category { margin-bottom: 45px; }
+  .category h2 {
+    font-size: 1.4rem; margin-bottom: 18px; color: #203a43;
+    border-left: 5px solid #2c5364; padding-left: 12px;
+  }
+
+  .grid {
+    display: grid; gap: 18px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .card {
+    background: #fff; border-radius: 12px; padding: 22px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,.12); }
+  .card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+  .meta { font-size: .85rem; color: #666; margin-bottom: 14px; line-height: 1.5; }
+  .bottom { margin-top: auto; display: flex; align-items: center; justify-content: space-between; }
+  .price { font-size: 1.3rem; font-weight: 700; color: #2c5364; }
+
+  .buy-btn {
+    background: #2c5364; color: #fff; border: none; padding: 10px 20px;
+    border-radius: 8px; cursor: pointer; font-size: .95rem; font-weight: 600;
+    transition: background .2s;
+  }
+  .buy-btn:hover { background: #1a73e8; }
+
+  footer {
+    text-align: center; padding: 30px 20px; color: #777; font-size: .85rem;
+    border-top: 1px solid #e3e3e3; background: #fff;
+  }
+</style>
 </head>
 <body>
-  <main>
-    <h1>Diar F.</h1>
-    <p>Coming soon.</p>
-  </main>
+
+<header>
+  <h1>WTHB – Licenca Software</h1>
+  <p>Licenca origjinale me çmime konkurruese · Dorëzim brenda 24 orësh</p>
+</header>
+
+<div class="info-bar">
+  <div><strong>Orari:</strong><br>E Hënë – E Premte, 09:00–22:00</div>
+  <div><strong>Kontakt:</strong><br>Signal / WhatsApp / Telegram / Email</div>
+  <div><strong>Dorëzimi:</strong><br>Brenda 24 orësh pas pagesës</div>
+</div>
+
+<div class="container">
+
+  <div class="category">
+    <h2>Windows</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Windows 11 Home Retail</h3>
+        <div class="meta">1 PC · Licencë përgjithmonë · Transferues</div>
+        <div class="bottom"><span class="price">99,00 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>Windows 11 Pro Retail</h3>
+        <div class="meta">1 PC · Licencë përgjithmonë · Transferues</div>
+        <div class="bottom"><span class="price">139,00 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Microsoft Office / 365</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Microsoft 365 Personal</h3>
+        <div class="meta">1 përdorues · 1 vit · 1TB OneDrive</div>
+        <div class="bottom"><span class="price">69,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>Microsoft 365 Family</h3>
+        <div class="meta">Deri në 6 përdorues · 1 vit · 6TB OneDrive</div>
+        <div class="bottom"><span class="price">99,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>Office Home &amp; Student 2021</h3>
+        <div class="meta">1 PC/Mac · Licencë përgjithmonë</div>
+        <div class="bottom"><span class="price">149,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>Office Home &amp; Business 2021</h3>
+        <div class="meta">1 PC/Mac · Licencë përgjithmonë · Përfshin Outlook</div>
+        <div class="bottom"><span class="price">249,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Antivirus</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Norton 360 Deluxe</h3>
+        <div class="meta">5 pajisje · 1 vit · VPN i përfshirë</div>
+        <div class="bottom"><span class="price">49,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>ESET NOD32 Antivirus</h3>
+        <div class="meta">1 pajisje · 1 vit</div>
+        <div class="bottom"><span class="price">39,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+      <div class="card">
+        <h3>ESET Internet Security</h3>
+        <div class="meta">3 pajisje · 1 vit</div>
+        <div class="bottom"><span class="price">59,99 €</span><button class="buy-btn">Blej</button></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>WTHB · Të gjitha licencat janë origjinale dhe të blera nga distribuerë të autorizuar.</p>
+  <p>Për pyetje na kontaktoni në Signal / WhatsApp / Telegram ose me email.</p>
+</footer>
+
+<script>
+  // ZËVENDËSO këtë link me linkun tënd të kontaktit:
+  // Signal:  https://signal.me/#eu/+NUMRI_YT  (me prefiksin e shtetit, p.sh. +31...)
+  // WhatsApp: https://wa.me/NUMRI_YT
+  // Telegram: https://t.me/USERNAME_YT
+  const CONTACT_LINK = "https://signal.me/#eu/+310000000000";
+
+  document.querySelectorAll(".buy-btn").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      window.open(CONTACT_LINK, "_blank");
+    });
+  });
+</script>
+
 </body>
 </html>
