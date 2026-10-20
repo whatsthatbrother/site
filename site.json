@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "name": "Diar F.",
+    "role": "Freelance IT & network engineer",
+    "headline": "I build networks and IT systems that keep working.",
+    "intro": "Routers, Wi-Fi, VPNs, Microsoft 365, servers and backups — set up properly, documented, and easy to live with. Based in Kosovo, working with clients anywhere.",
+    "available": true,
+    "contact": {
+      "email": "",
+      "linkedin": "",
+      "upwork": "",
+      "whatsapp": ""
+    }
+  },
+
+  "services": [
+    {
+      "name": "Network setup",
+      "what": "Router, firewall and Wi-Fi for a home or office, with separate networks for staff, guests and devices.",
+      "price": null
+    },
+    {
+      "name": "VPN and remote access",
+      "what": "Secure access to your office from anywhere — per-user accounts and a simple guide for each person.",
+      "price": null
+    },
+    {
+      "name": "Microsoft 365 and email",
+      "what": "Email on your own domain, Teams and OneDrive, mailbox migration and sign-in security.",
+      "price": null
+    },
+    {
+      "name": "Servers and backup",
+      "what": "Virtual servers on Proxmox or Hyper-V, and automatic backups with a tested restore.",
+      "price": null
+    },
+    {
+      "name": "Custom tools",
+      "what": "Small web tools, dashboards and Windows apps built around how you actually work.",
+      "price": null
+    },
+    {
+      "name": "Remote support",
+      "what": "Something broken or slow? One-off fixes, or a monthly plan for small teams.",
+      "price": null
+    }
+  ],
+
+  "projects": [],
+
+  "skills": ["MikroTik RouterOS", "Firewalls and VLANs", "WireGuard, OpenVPN, IPsec", "Microsoft 365",
+             "Active Directory", "Proxmox", "Hyper-V", "Veeam", "Linux", "Windows Server",
+             "Monitoring", "Python and Flask", "Automation"]
+}
