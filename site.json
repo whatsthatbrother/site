@@ -1,9 +1,9 @@
 {
   "profile": {
-    "name": "Diar F.",
-    "role": "Freelance IT & network engineer",
-    "headline": "I build networks and IT systems that keep working.",
-    "intro": "Routers, Wi-Fi, VPNs, Microsoft 365, servers and backups — set up properly, documented, and easy to live with. Based in Kosovo, working with clients anywhere.",
+    "name": "F D.",
+    "role": "Freelance IT r",
+    "headline": "Software Licenses.",
+    "intro": "Softwares Based in Eu, working with clients anywhere.",
     "available": true,
     "contact": {
       "email": "",
@@ -15,32 +15,32 @@
 
   "services": [
     {
-      "name": "Network setup",
+      "name": "Windows Licenes",
       "what": "Router, firewall and Wi-Fi for a home or office, with separate networks for staff, guests and devices.",
       "price": null
     },
     {
-      "name": "VPN and remote access",
+      "name": "Microsoft Office",
       "what": "Secure access to your office from anywhere — per-user accounts and a simple guide for each person.",
       "price": null
     },
     {
-      "name": "Microsoft 365 and email",
+      "name": "Autocad",
       "what": "Email on your own domain, Teams and OneDrive, mailbox migration and sign-in security.",
       "price": null
     },
     {
-      "name": "Servers and backup",
+      "name": "Autodesk CIVIL 3D",
       "what": "Virtual servers on Proxmox or Hyper-V, and automatic backups with a tested restore.",
       "price": null
     },
     {
-      "name": "Custom tools",
+      "name": "Windows Server & SQL Server",
       "what": "Small web tools, dashboards and Windows apps built around how you actually work.",
       "price": null
     },
     {
-      "name": "Remote support",
+      "name": "Visual Studio",
       "what": "Something broken or slow? One-off fixes, or a monthly plan for small teams.",
       "price": null
     }
